@@ -18,4 +18,14 @@ export default {
 			'vue',
 		],
 	},
+	server: {
+		watch: {
+			usePolling: true,
+		}
+		// force: true,
+		// strict: true,
+		// fsServe: {
+		// 	root: '../..'
+		// }
+	}
 };
