@@ -1,0 +1,39 @@
+Arguments: 
+  /home/tosca/n/bin/node /home/tosca/n/bin/yarn dev
+
+PATH: 
+  /home/tosca/.rvm/gems/ruby-3.0.0/bin:/home/tosca/.rvm/gems/ruby-3.0.0@global/bin:/home/tosca/.rvm/rubies/ruby-3.0.0/bin:/home/tosca/.yarn/bin:/home/tosca/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/tosca/.rvm/bin:/usr/local/go/bin:/home/tosca/n/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/tosca/code/hub/ttxtosca/vite-plugin-windicss-i170/packages/@a/sub-a/package.json: Unexpected token : in JSON at position 102
+      at JSON.parse (<anonymous>)
+      at /home/tosca/n/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/tosca/n/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/tosca/n/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "@a/sub-a",
+  	"version": "1.0.0",
+  	"license": "MIT",
+  	"private": true,
+  	"scripts": [
+  		"dev": "vite"
+  	]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

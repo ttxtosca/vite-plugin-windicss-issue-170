@@ -1,0 +1,11 @@
+{
+	"name": "@a/sub-a",
+	"version": "1.0.0",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	}
+}
