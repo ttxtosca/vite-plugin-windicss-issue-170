@@ -8,7 +8,7 @@ export default {
 		}),
 		WindiCSS({
 			// scan: {
-			// 	dirs: ['.', '../../@tosca/client/lib'],
+			// 	dirs: ['.', '../../@b/sub-b/lib'],
 			// 	fileExtensions: ['vue', 'js'],
 			// },
 		}),
